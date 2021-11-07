@@ -1,0 +1,38 @@
+.token-card{
+    width: 300px;
+    height: 200px;
+}
+
+.token-card > span{
+    overflow: hidden;
+    float: right;
+}
+
+.details{
+
+}
+
+.details-name{
+    //border: 1px solid;
+    overflow: hidden;
+}
+
+.details-name > p{
+    float: left;
+}
+
+.details-name > span{
+    float: right;
+}
+
+.details-description{
+    overflow: hidden;
+}
+
+.details-description > p{
+    float: left;
+}
+
+.details-description > span{
+    float: right;
+}
