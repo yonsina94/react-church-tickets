@@ -1,4 +1,4 @@
-import React from 'react';
+import { StrictMode } from 'react';
 import ReactDOM from 'react-dom';
 import * as dotenv from "dotenv";
 import './index.scss';
@@ -7,9 +7,9 @@ import reportWebVitals from './reportWebVitals';
 dotenv.config();
 
 ReactDOM.render(
-  <React.StrictMode>
+  <StrictMode>
     <App />
-  </React.StrictMode>,
+  </StrictMode>,
   document.getElementById('root')
 );
 
